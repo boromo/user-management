@@ -17,4 +17,4 @@ You should see a message saying something like:
 Laravel development server started on http://localhost:8000
 ```
 
-Now navigate you [a link]http://localhost:8000 and you should see home page
+Now navigate to <a href="http://localhost:8000" target="_blank">http://localhost:8000</a> and you should see home page
