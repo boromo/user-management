@@ -11,3 +11,10 @@ After cloning the repository, navigate to project folder, open your terminal and
 ```
 php artsan serve
 ```
+
+You should see a message saying something like:
+```
+Laravel development server started on http://localhost:8000
+```
+
+Now navigate you [a link]http://localhost:8000 and you should see home page
