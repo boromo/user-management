@@ -18,3 +18,25 @@ Laravel development server started on http://localhost:8000
 ```
 
 Now navigate to <a href="http://localhost:8000" target="_blank">http://localhost:8000</a> and you should see home page
+
+## SQLite database
+Since default settings are set to use SQLite database, there is no need to setup anything regarding the database.
+
+## Admin credentials
+* Username:
+```
+admin
+```
+* Password:
+```
+secret
+```
+For other users the password is same as for the admin.
+
+## Migration and seeding
+To refresh migrations and reseed database please run this command:
+```
+php artisan migrate:refresh --seed
+```
+
+This will refresh tables and seed the tables.

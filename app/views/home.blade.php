@@ -4,7 +4,7 @@
 <div class="jumbotron">
     <div class="starter-template">
         <h1>User management system</h1>
-        <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
+        <p class="lead">Simple User management system built with Laravel 4, today's best PHP framework</p>
     </div>
 </div>
 @stop

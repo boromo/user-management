@@ -6,19 +6,22 @@
     @if(Session::get('error') != null)
     <div class="alert alert-warning" role="alert">{{ Session::get('error') }}</div>
     @endif
-    {{ Form::open(array('url' => 'login')) }}
+    {{ Form::open(array('url' => 'login', 'class' => 'form-horizontal')) }}
     <div class="form-group">
-        {{ Form::label('username', 'Username') }}
+        {{ Form::label('username', 'Username', array('class' => 'col-sm-2 control-label')) }}
+        <div class="col-sm-8">
         {{ Form::text('username', Input::old('username'), array('class' => 'form-control')) }}
+        </div>
     </div>
     <div class="form-group">
-        {{ Form::label('password', 'Password') }}
+        {{ Form::label('password', 'Password', array('class' => 'col-sm-2 control-label')) }}
+        <div class="col-sm-8">
         {{ Form::password('password', array('class' => 'form-control')) }}
+        </div>
     </div>
     <div class="form-group">
-        {{ Form::submit('Login', array('class' => 'btn btn-default')) }}
+        {{ Form::submit('Login', array('class' => 'btn btn-default col-sm-offset-2')) }}
     </div>
     {{ Form::close() }}
-    <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
 </div>
 @stop
